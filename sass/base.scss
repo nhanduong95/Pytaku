@@ -1,0 +1,264 @@
+@import "screen";
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+
+  @include screen(min-tablet) {
+    background-color: #58585A;
+  }
+}
+
+/* ==== HEADER ==== */
+/* Container*/
+header {
+  background-color: #221E1F;
+  border: none;
+  padding: 3.5%;
+  width: 100%;
+
+  @include screen(min-iphone) {
+    padding: 4%;
+  }
+  @include screen(min-smartphone) {
+    padding: 3%;
+  }
+  @include screen(min-tablet) {
+    padding: 1.5% 2%;
+  }
+}
+
+.header--container {
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+
+  @include screen(min-tablet) {
+    width: 740px;
+  }
+  @include screen(max-tablet) {
+    width: 920px;
+  }
+  @include screen(lap) {
+    width: 950px;
+  }
+  @include screen(large-screen) {
+    width: 1150px;
+  }
+}
+
+/* End Container*/
+/* Logo*/
+.header__logo {
+  @include screen(min-tablet) {
+    display: inline; /*REMEMBER*/
+  }
+  img {
+    //position: absolute;
+
+    @include screen(min-iphone){
+      width: 41%;
+    }
+    @include screen(max-iphone){
+      width: 35%;
+    }
+    @include screen(min-smartphone){
+      width: 28%;
+    }
+    @include screen(min-tablet){
+      width: 15%;
+      margin-top: 0.5%;
+    }
+  }
+}
+/* End Logo*/
+/* Header Main Content */
+.navbar-toggle{
+  background-color: #221E1F;
+  border: 1px solid #C8C6C7;
+  border-radius: 0;
+  margin: 0 0 0 auto;
+
+  @include screen(min-iphone){
+    padding: 3% 2%;
+  }
+  @include screen(max-iphone){
+    padding: 2.5%;
+  }
+  @include screen(max-smartphone){
+    padding: 2%;
+  }
+
+  .icon-bar{
+    background-color: #C8C6C7;
+
+    @include screen(min-iphone){
+      height: 2px;
+      margin: 2px;
+    }
+    @include screen(max-iphone){
+      min-width: 18px;
+      height: 3px;
+      margin: 1px;
+    }
+    @include screen(max-smartphone){
+      min-width: 25px;
+      margin: 0;
+      padding: 2px;
+    }
+  }
+}
+.header__content{
+  @include screen(min-iphone){
+    margin-top: 8%;
+  }
+  @include screen(max-iphone){
+    margin-top: 6%;
+  }
+  @include screen(max-smartphone){
+    margin-top: 4%;
+  }
+  @include screen(min-tablet){
+    display: inline;    /*REMEMBER*/
+    float: right;       /*REMEMBER*/
+    width: 80%;
+    margin: 0;
+    padding-top: 1%;
+  }
+  @include screen(lap){
+    padding-top: 0;
+  }
+  @include screen(large-screen){
+    margin: 1%;
+  }
+}
+.header__content-search{
+  input{
+    //font-size: 1em;
+    padding: 1.5%;
+    width: 60%;
+    border: none;
+
+    @include screen(min-iphone){
+      float: left;
+      width: 92%;
+    }
+    @include screen(max-iphone){
+      width: 94%;
+    }
+    @include screen(min-smartphone){
+      padding: 1.3%;
+    }
+    @include screen(max-smartphone){
+      font-size: 1.2em;
+    }
+    @include screen(min-tablet){
+      font-size: 1em;
+      width: 85%;
+      padding: 2.3%;
+    }
+    @include screen(lap){
+      margin-top: 4.3%;
+    }
+  }
+  div{
+    float: left;
+    margin-left: 0;
+    background-color: #E43E2F;
+    font-size: 1.3em;
+    color: #ffffff;
+    vertical-align: middle;
+
+    @include screen(min-iphone){
+      padding: 0.8% 0.9%;
+    }
+    @include screen(max-iphone){
+      padding: 1%;
+    }
+    @include screen(max-smartphone){
+      padding: 1.2%;
+    }
+    @include screen(min-tablet){
+      font-size: 1.2em;
+      padding: 1.6%;
+    }
+    @include screen(lap){
+      margin-top: 4.3%;
+    }
+  }
+}
+.header__content-list{
+  margin-bottom: 0;
+}
+@media (min-width: 568px) {
+  .header__content-list{
+    padding: 0.7%;
+  }
+}
+@media (min-width: 768px){
+  .header__content-list{
+    float: right;       /*REMEMBER*/
+    top: 0;
+    margin-bottom: auto;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+//.header__content-search-bar{
+//  font-size: 100%;
+//  padding: 1.5%;
+//  width: 60%;
+//  border: none;
+//}
+//@media (min-width: 320px){
+//  .header__content-search-bar {
+//    width: 90%;
+//  }
+//}
+//@media (min-width: 425px) {
+//  .header__content-search-bar {
+//    width: 90%;
+//  }
+//}
+//@media (min-width: 480px) {
+//  .header__content-search-bar {
+//    width: 92%;
+//  }
+//}
+//@media (min-width: 568px){
+//  .header__content-search-bar{
+//    font-size: 1.1em;
+//    padding: 1.3%;
+//  }
+//}
+//@media (min-width: 768px){
+//  .header__content-search-bar{
+//    font-size: 1em;
+//    width: 85%;
+//    padding: 2.3%;
+//  }
+//}
+//@media (min-width: 1024px){
+//  .header__content-search-bar{
+//    margin-top: 4.3%;
+//  }
+//}
+
+//.header__content-search-icon{
+//  margin-left: 0;
+//  padding: 1.2%;
+//  background-color: #E43E2F;
+//  font-size: 147%;
+//  color: #ffffff;
+//  vertical-align: middle;
+//}
+//@media (min-width: 768px){
+//  .header__content-search-icon{
+//    font-size: 1.2em;
+//    padding: 2.5%;
+//  }
+//}

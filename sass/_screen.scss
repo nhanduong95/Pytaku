@@ -1,0 +1,21 @@
+$breakpoint: (
+    min-iphone: 320px,
+    max-iphone: 480px,
+    min-smartphone: 568px,
+    max-smartphone: 667px,
+    min-tablet: 768px,
+    max-tablet: 992px,
+    lap: 1024px,
+    large-screen: 1200px,
+);
+
+@mixin screen ($value){
+  @if map_has_key($breakpoint, $value){
+    @media (min-width: #{map_get($breakpoint, $value)}) {
+      @content
+    }
+  }
+  @else {
+    @warn("No #{$value} is found in breakpoint map.")
+  }
+}
