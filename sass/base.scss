@@ -8,13 +8,19 @@ body {
   }
 }
 
-/* ==== HEADER ==== */
+/* =================================== HEADER =================================== */
 /* Container*/
 header {
+  width: 100%;
   background-color: #221E1F;
   border: none;
+}
+
+.header--container {
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
   padding: 3.5%;
-  width: 100%;
 
   @include screen(min-iphone) {
     padding: 4%;
@@ -23,26 +29,19 @@ header {
     padding: 3%;
   }
   @include screen(min-tablet) {
-    padding: 1.5% 2%;
-  }
-}
-
-.header--container {
-  height: auto;
-  overflow: hidden;
-  margin: 0 auto;
-
-  @include screen(min-tablet) {
     width: 740px;
+    padding: 1.5% 2%;
   }
   @include screen(max-tablet) {
     width: 920px;
   }
   @include screen(lap) {
     width: 950px;
+    padding: 1%;
   }
   @include screen(large-screen) {
     width: 1150px;
+    padding: 0.5%;
   }
 }
 
@@ -53,8 +52,6 @@ header {
     display: inline; /*REMEMBER*/
   }
   img {
-    //position: absolute;
-
     @include screen(min-iphone){
       width: 41%;
     }
@@ -62,21 +59,24 @@ header {
       width: 35%;
     }
     @include screen(min-smartphone){
-      width: 28%;
+      width: 30%;
     }
     @include screen(min-tablet){
-      width: 15%;
+      width: 16%;
       margin-top: 0.5%;
+    }
+    @include screen(large-screen) {
+      width: 15%;
     }
   }
 }
 /* End Logo*/
-/* Header Main Content */
+/* Hamburger icon*/
 .navbar-toggle{
+  margin: 0 0 0 auto;
   background-color: #221E1F;
   border: 1px solid #C8C6C7;
   border-radius: 0;
-  margin: 0 0 0 auto;
 
   @include screen(min-iphone){
     padding: 3% 2%;
@@ -107,6 +107,9 @@ header {
     }
   }
 }
+
+/* End Hamburger icon*/
+/* Header Main Content */
 .header__content{
   @include screen(min-iphone){
     margin-top: 8%;
@@ -131,11 +134,18 @@ header {
     margin: 1%;
   }
 }
+
+/* Header Search Bar */
 .header__content-search{
+  @include screen(min-tablet) {
+    display: inline; /*REMEMBER*/
+    float: left; /*REMEMBER*/
+    margin: auto;
+  }
   input{
     //font-size: 1em;
-    padding: 1.5%;
     width: 60%;
+    padding: 1.5%;
     border: none;
 
     @include screen(min-iphone){
@@ -149,12 +159,15 @@ header {
       padding: 1.3%;
     }
     @include screen(max-smartphone){
+      width: 94.5%;
       font-size: 1.2em;
     }
     @include screen(min-tablet){
-      font-size: 1em;
       width: 85%;
+      display: inline; /*REMEMBER*/
+      margin: auto;
       padding: 2.3%;
+      font-size: 1em;
     }
     @include screen(lap){
       margin-top: 4.3%;
@@ -163,10 +176,10 @@ header {
   div{
     float: left;
     margin-left: 0;
-    background-color: #E43E2F;
-    font-size: 1.3em;
-    color: #ffffff;
     vertical-align: middle;
+    font-size: 1.3em;
+    background-color: #E43E2F;
+    color: #ffffff;
 
     @include screen(min-iphone){
       padding: 0.8% 0.9%;
@@ -178,87 +191,137 @@ header {
       padding: 1.2%;
     }
     @include screen(min-tablet){
-      font-size: 1.2em;
       padding: 1.6%;
+      font-size: 1.2em;
     }
     @include screen(lap){
       margin-top: 4.3%;
     }
   }
 }
-.header__content-list{
+
+/* End Header Search Bar*/
+/* Header Navigation List*/
+.header__content-navlist {
   margin-bottom: 0;
-}
-@media (min-width: 568px) {
-  .header__content-list{
-    padding: 0.7%;
+
+  li {
+    @include screen(min-tablet) {
+      flex: 1 1 100%;
+    }
+    @include screen(max-tablet) {
+      text-align: center;
+      word-spacing: 4px;
+    }
+    a {
+      font-size: 1em;
+      color: #FCFCFC;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      &:hover {
+        color: #231F20;
+      }
+      @include screen(min-iphone) {
+        padding-left: 4%;
+        padding-right: 4%;
+      }
+      @include screen(max-iphone) {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 1.1em;
+      }
+      @include screen(min-smartphone) {
+        padding: 2%;
+      }
+      @include screen(max-smartphone) {
+        font-size: 1.2em;
+      }
+      @include screen(min-tablet) {
+        font-size: 1em;
+        padding: 3% 6%;
+      }
+      @include screen(lap) {
+        font-size: 1.1em;
+      }
+    }
   }
-}
-@media (min-width: 768px){
-  .header__content-list{
+
+  @include screen(min-iphone) {
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  @include screen(min-tablet) {
     float: right;       /*REMEMBER*/
-    top: 0;
+    margin-top: 0;
     margin-bottom: auto;
     padding: 0;
+    display: inline-flex;
+    width: 45%;
+  }
+  @include screen(lap) {
+    margin-top: 1%;
   }
 }
-@media (min-width: 768px) {
-  .navbar-nav>li>a{
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
-//.header__content-search-bar{
-//  font-size: 100%;
-//  padding: 1.5%;
-//  width: 60%;
-//  border: none;
-//}
-//@media (min-width: 320px){
-//  .header__content-search-bar {
-//    width: 90%;
-//  }
-//}
-//@media (min-width: 425px) {
-//  .header__content-search-bar {
-//    width: 90%;
-//  }
-//}
-//@media (min-width: 480px) {
-//  .header__content-search-bar {
-//    width: 92%;
-//  }
-//}
-//@media (min-width: 568px){
-//  .header__content-search-bar{
-//    font-size: 1.1em;
-//    padding: 1.3%;
-//  }
-//}
-//@media (min-width: 768px){
-//  .header__content-search-bar{
-//    font-size: 1em;
-//    width: 85%;
-//    padding: 2.3%;
-//  }
-//}
-//@media (min-width: 1024px){
-//  .header__content-search-bar{
-//    margin-top: 4.3%;
-//  }
-//}
 
-//.header__content-search-icon{
-//  margin-left: 0;
-//  padding: 1.2%;
-//  background-color: #E43E2F;
-//  font-size: 147%;
-//  color: #ffffff;
-//  vertical-align: middle;
-//}
-//@media (min-width: 768px){
-//  .header__content-search-icon{
-//    font-size: 1.2em;
-//    padding: 2.5%;
-//  }
-//}
+.header__content-navelem--divider {
+  border-bottom: 1px #3E3A3B solid;
+  @include screen(min-tablet) {
+    border-bottom: none;
+    border-right: 1px #3E3A3B solid;
+  }
+}
+
+/* End Header Navigation List*/
+/* End Header Main Content*/
+
+/* =================================== FOOTER =================================== */
+footer {
+  overflow: hidden;
+  margin: 2% auto;
+  //padding: 1%;
+  color: #B1B1B3;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+  @include screen(min-tablet) {
+    width: 740px;
+  }
+  @include screen(max-tablet) {
+    width: 920px;
+  }
+  @include screen(laptop) {
+    width: 950px;
+  }
+  @include screen(large-screen) {
+    width: 1150px;
+  }
+}
+
+.footer__author {
+  float: left;
+  padding: 0.5%;
+}
+
+.footer__nav {
+  float: right;
+  padding: 0;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    a {
+      padding-right: 15px;
+      color: #B1B1B3;
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    .footer__nav-link--last {
+      padding-right: 0;
+    }
+  }
+}
+
+
