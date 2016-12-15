@@ -1,0 +1,26 @@
+@mixin font_face($name, $file_name) {
+  @font-face {
+    font-family: $name;
+    src: url('#{$file_name}')
+  }
+}
+
+@include font_face('UbuntuBold', '/fonts/Ubuntu-Bold.ttf');
+@include font_face('UbuntuMedium', '/fonts/Ubuntu-Medium.ttf');
+@include font_face('UbuntuRegular', '/fonts/Ubuntu-Regular.ttf');
+@include font_face('UbuntuLight', '/fonts/Ubuntu-Light.ttf');
+
+@include font_face('UbuntuBoldItalic', '/fonts/Ubuntu-BoldItalic.ttf');
+@include font_face('UbuntuItalic', '/fonts/Ubuntu-Italic.ttf');
+@include font_face('UbuntuMediumItalic', '/fonts/Ubuntu-MediumItalic.ttf');
+@include font_face('UbuntuLightItalic', '/fonts/Ubuntu-LightItalic.ttf');
+
+$bold: 'UbuntuBold', sans-serif;
+$medium: 'UbuntuMedium', sans-serif;
+$regular: 'UbuntuRegular', sans-serif;
+$light: 'UbuntuLight', sans-serif;
+
+$bold-italic: 'UbuntuBoldItalic', sans-serif;
+$italic: 'UbuntuItalic', sans-serif;
+$medium-italic: 'UbuntuMediumItalic', sans-serif;
+$light-italic: 'UbuntuLightItalic', sans-serif;

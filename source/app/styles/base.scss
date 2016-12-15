@@ -1,0 +1,247 @@
+@import "screen";
+@import "fonts";
+@import "prefixes";
+
+body {
+  @include screen-min(min-tablet) {
+    background-color: #58585A;
+  }
+}
+
+/* =================================== HEADER =================================== */
+header {
+  background-color: #221E1F;
+  font-family: $regular;
+  position: relative;
+
+  .header-container {
+    //background-color: #5bc0de;
+    width: 85%;
+    height: 65px;
+    margin: 0 auto;
+    padding: 10px 0;
+    @include flexbox();
+    justify-content: space-between;
+
+    @include screen-max(min-tablet) {
+      width: 90%
+    }
+
+    .header-logo {
+      width: 150px;
+      background: url("../logo/pytaku-white.svg") no-repeat;
+      background-size: contain;
+      background-position: center;
+      //background-color: silver;
+    }
+  }
+}
+
+.nav--linear {
+  width: 75%;
+  //background-color: #0000fe;
+  @include flexbox();
+  justify-content: space-between;
+  align-items: center;
+
+  @include screen-min(desktop) {
+    width: 80%;
+  }
+
+  @include screen-max(769px) {
+    display: none;
+  }
+
+  ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    //background-color: yellow;
+
+    li {
+      display: inline-block;
+      //background-color: red;
+
+      a {
+        width: 100%;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #FCFCFC;
+        text-decoration: none;
+        //background-color: #5cb85c;
+
+        &:hover {
+          color: #DFDFDF;
+        }
+      }
+
+      ul {
+        position: absolute;
+        margin: 0;
+        top: 100%;
+        transform: translateX(-35%);
+        z-index: 9;
+        background-color: #616163;
+        border-left: 5px solid #3A3A3C;
+        border-right: 5px solid #3A3A3C;
+
+        li {
+          display: block;
+          margin-bottom: 1px;
+          margin-right: 0;
+          background-color: #3A3A3C;
+          line-height: 1.5em;
+
+          &:hover {
+            background-color: #7E7E81;
+          }
+
+          a {
+            padding: 7px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav--stack {
+  @include screen-min(min-tablet) {
+    display: none;
+  }
+}
+
+.nav-menu {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-search {
+  @include flexbox();
+
+  input[type=text] {
+    border: none;
+    padding: 5px;
+    @include flexbox-col-width(250px, 5);
+
+    @include screen-max(desktop) {
+      @include flexbox-col-width(200px, 5);
+    }
+
+    @include screen-max(min-tablet) {
+      @include flexbox-col-width(85%, 10);
+    }
+  }
+
+  span {
+    @include flexbox-col-width(auto, 1);
+    background-color: #E43E2F;
+    text-align: center;
+    color: #fff;
+    line-height: 2.2em;
+  }
+}
+
+.menu-icon-container {
+  width: 40px;
+  height: 40px;
+  //background-color: #5cb85c;
+  border: 1px solid #ECEAEB;
+
+  .menu-icon-drawing {
+    width: 25px;
+    height: 25px;
+    transform: translate(25%, 25%);
+    background: linear-gradient(
+        to bottom,
+        #221E1F,
+        #221E1F 20%,
+        #ECEAEB 20%,
+        #ECEAEB 30%,
+        #221E1F 30%,
+        #221E1F 45%,
+        #ECEAEB 45%,
+        #ECEAEB 55%,
+        #221E1F 55%,
+        #221E1F 70%,
+        #ECEAEB 70%,
+        #ECEAEB 80%,
+        #221E1F 80%,
+        #221E1F 100%
+    );
+  }
+}
+
+.list-item--linear {
+  line-height: 2em;
+  border-right: 1px solid #616163;
+}
+
+.list-item--no-border {
+  border-right: none;
+}
+
+.sublist--disappear {
+  visibility: hidden;
+}
+
+/* =================================== MAIN BODY =================================== */
+main {
+  margin: 0 auto;
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
+}
+
+/* =================================== FOOTER =================================== */
+footer {
+  overflow: hidden;
+  margin: 2% auto;
+  //padding: 1%;
+  color: #B1B1B3;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+  //@include screen(min-tablet) {
+  //  width: 740px;
+  //}
+  //@include screen(max-tablet) {
+  //  width: 920px;
+  //}
+  //@include screen(lap) {
+  //  width: 950px;
+  //}
+  //@include screen(large-screen) {
+  //  width: 1150px;
+  //}
+}
+
+.footer__author {
+  float: left;
+  padding: 0.5%;
+}
+
+.footer__nav {
+  float: right;
+  padding: 0;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    a {
+      padding-right: 15px;
+      color: #B1B1B3;
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    .footer__nav-link--last {
+      padding-right: 0;
+    }
+  }
+}
+
+

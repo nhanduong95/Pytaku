@@ -1,0 +1,35 @@
+$breakpoint: (
+  min-iphone: 320px,
+  max-iphone: 480px,
+  min-smartphone: 568px,
+  max-smartphone: 667px,
+  min-tablet: 768px,
+  max-tablet: 992px,
+  desktop: 1024px,
+  large-screen: 1200px,
+);
+
+@mixin screen-min($value) {
+  @if map_has_key($breakpoint, $value){
+    @media (min-width: #{map_get($breakpoint, $value)}) {
+      @content
+    }
+  }
+  @else {
+    @media (min-width: $value) {
+      @content
+    }
+  }
+}
+
+@mixin screen-max($value) {
+  @if map_has_key($breakpoint, $value) {
+    @media (max-width: #{map_get($breakpoint, $value)}) {
+      @content
+    }
+  } @else {
+    @media (max-width: $value) {
+      @content
+    }
+  }
+}
