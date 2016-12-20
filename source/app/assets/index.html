@@ -29,8 +29,8 @@
       </div>
       <ul>
         <li class="list-item--linear"><a href="#"><i class="fa fa-bookmark-o"></i> My Bookmarks</a></li>
-        <li class="list-item--linear list-item--no-border" onclick="showSubmenu(this)"><a href="#"><i
-          class="fa fa-user"></i> Account <span class="caret"></span></a>
+        <li class="list-item--linear list-item--no-border" onclick="showSubmenu(this)">
+          <a href="#"><i class="fa fa-user"></i> Account <span class="caret"></span></a>
           <ul class="sublist--disappear" id="acct-menu">
             <li><a href="#">Profile</a></li>
             <li><a href="#">Change password</a></li>
@@ -517,24 +517,15 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<!--<script src="js/bootstrap.js"></script>-->
+
 <script src="../js/bootstrap.min.js"></script>
-<script type="text/javascript">
-    function showSubmenu(obj){
-      var listClasses = document.getElementById("acct-menu").classList;
-      console.log(listClasses);
-      if(listClasses.contains("sublist--disappear")){
-        listClasses.remove("sublist--disappear");
-        console.log(listClasses);
-      }else{
-        listClasses.add("sublist--disappear");
-        console.log(listClasses);
-      }
-    }
-
-
-
+<script>
+  function showSubmenu(obj){
+    var show = require("../js/navbar.js");
+    show(obj);
+  }
 </script>
+
 <script src="/app.js"></script>
 
 </body>

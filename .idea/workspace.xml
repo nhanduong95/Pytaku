@@ -1,58 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7acfddc4-6ffa-454e-b1a6-063a20a584b5" name="Default" comment="Add brunch. Add flexbox to the navigation bar. Modify the project structure.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/fonts/Ubuntu-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/styles/_fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/styles/_prefixes.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/56ca02d86c481e6389f5deb3677c54250d11269d/_screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/56ca02d86c481e6389f5deb3677c54250d11269d/base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/base.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logo/__MACOSX/._pytaku-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logo/__MACOSX/._pytaku-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logo/__MACOSX/._pytaku-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logo/__MACOSX/._pytaku-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/base.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index__nologin.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-01.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-02.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-03.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-04.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-05.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-06.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-06.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-07.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-07.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-01.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-02.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-03.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-04.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-05.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-06.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-06.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-07.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-07.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-08.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-08.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-09.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-09.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/comic-thumbnail/com-pop-10.png" afterPath="$PROJECT_DIR$/source/app/assets/comic-thumbnail/com-pop-10.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/source/app/styles/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/index_nologin.css" afterPath="$PROJECT_DIR$/source/app/styles/index_nologin.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/source/app/assets/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/pytaku-black.png" afterPath="$PROJECT_DIR$/source/app/assets/logo/pytaku-black.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/pytaku-black.svg" afterPath="$PROJECT_DIR$/source/app/assets/logo/pytaku-black.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/pytaku-white.png" afterPath="$PROJECT_DIR$/source/app/assets/logo/pytaku-white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logo/pytaku-white.svg" afterPath="$PROJECT_DIR$/source/app/assets/logo/pytaku-white.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/_screen.scss" afterPath="$PROJECT_DIR$/source/app/styles/_screen.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/base.scss" afterPath="$PROJECT_DIR$/source/app/styles/base.scss" />
+    <list default="true" id="7acfddc4-6ffa-454e-b1a6-063a20a584b5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/assets/js/navbar.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/assets/index.html" afterPath="$PROJECT_DIR$/source/app/assets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/styles/base.scss" afterPath="$PROJECT_DIR$/source/app/styles/base.scss" />
     </list>
     <ignored path="pytaku.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,8 +31,8 @@
       <file leaf-file-name="brunch-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/brunch-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="75">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -106,41 +61,21 @@
       <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/app/styles/base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="184" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
+            <state relative-caret-position="1785">
+              <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
               <folding>
-                <element signature="e#2654#3196#0" expanded="false" />
-                <marker date="1481801122000" expanded="true" signature="1096:1127" ph="..." />
+                <element signature="e#2909#3451#0" expanded="false" />
+                <marker date="1481801962000" expanded="true" signature="1096:1127" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pytaku-white.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/app/assets/logo/pytaku-white.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/app/styles/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="5744" column="9" selection-start-line="5744" selection-start-column="9" selection-end-line="5744" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/app/assets/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="529" column="25" selection-start-line="529" selection-start-column="25" selection-end-line="529" selection-end-column="25" />
+            <state relative-caret-position="591">
+              <caret line="523" column="26" selection-start-line="523" selection-start-column="26" selection-end-line="523" selection-end-column="26" />
               <folding>
                 <element signature="n#li#0;n#ul#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#1;n#ul#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -149,6 +84,16 @@
                 <element signature="n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/assets/js/navbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,20 +111,6 @@
                 <element signature="e#1317#1345#0" expanded="false" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_index__nologin.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mockups/app_index__nologin.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_index__loggedin.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mockups/app_index__loggedin.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -221,10 +152,17 @@
         <option value="$PROJECT_DIR$/source/app/styles/_prefixes.scss" />
         <option value="$PROJECT_DIR$/source/app/styles/index_nologin.css" />
         <option value="$PROJECT_DIR$/source/package.json" />
+        <option value="$PROJECT_DIR$/source/app/styles/bootstrap.css" />
+        <option value="$PROJECT_DIR$/source/app/styles/base.scss" />
+        <option value="$PROJECT_DIR$/source/app/assets/js/showSubmenu.js" />
+        <option value="$PROJECT_DIR$/source/app/app.js" />
+        <option value="$PROJECT_DIR$/source/app/initialize.js" />
+        <option value="$PROJECT_DIR$/source/app/assets/js/initialize.js" />
+        <option value="$PROJECT_DIR$/source/public/app.js" />
+        <option value="$PROJECT_DIR$/source/public/navbar.js" />
+        <option value="$PROJECT_DIR$/source/app/assets/js/navbar.js" />
         <option value="$PROJECT_DIR$/source/brunch-config.js" />
         <option value="$PROJECT_DIR$/source/app/assets/index.html" />
-        <option value="$PROJECT_DIR$/source/app/styles/base.scss" />
-        <option value="$PROJECT_DIR$/source/app/styles/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -263,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -350,7 +287,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,17 +375,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockups" />
+              <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pytaku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pytaku" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -454,8 +393,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,7 +403,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Elixir" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
     <property name="prop_add_unversioned_files" value="true" />
@@ -475,10 +415,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/app/assets/js" />
-      <recent name="$PROJECT_DIR$/source/app/styles" />
+      <recent name="$PROJECT_DIR$/source/app" />
       <recent name="$PROJECT_DIR$/source/app/assets" />
+      <recent name="$PROJECT_DIR$/source/app/styles" />
       <recent name="$PROJECT_DIR$/pytaku/app/assets" />
-      <recent name="$PROJECT_DIR$/pytaku/app/styles" />
     </key>
   </component>
   <component name="RunManager">
@@ -648,33 +588,44 @@
       <workItem from="1481684961926" duration="12000" />
       <workItem from="1481688008838" duration="1420000" />
       <workItem from="1481701258842" duration="10232000" />
-      <workItem from="1481771334456" duration="14315000" />
+      <workItem from="1481771334456" duration="15027000" />
+      <workItem from="1482120649124" duration="4367000" />
+      <workItem from="1482204090776" duration="5919000" />
+      <workItem from="1482217610846" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="Add brunch. Add flexbox to the navigation bar. Modify the project structure.">
+      <created>1481801390849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481801390850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97512000" />
+    <option name="totallyTimeSpent" value="108513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -706,62 +657,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mockups/app_index__nologin.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mockups/app_mobile_index__menu.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css" />
-    <entry file="file://$PROJECT_DIR$/source/app/assets/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/app/styles/index_nologin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#34#92#0" expanded="false" />
-            <element signature="e#93#251#0" expanded="false" />
-            <element signature="e#252#344#0" expanded="false" />
-            <element signature="e#345#438#0" expanded="false" />
-            <element signature="e#1317#1345#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mockups/app_mobile_index.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mockups/app_index__nologin.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mockups/app_mobile_index__menu.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css" />
     <entry file="file://$PROJECT_DIR$/source/app/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -893,29 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/public/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71814">
@@ -952,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,22 +837,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/brunch-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mockups/app_mobile_index.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -992,6 +847,29 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/styles/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37461">
+          <caret line="5744" column="9" selection-start-line="5744" selection-start-column="9" selection-end-line="5744" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/assets/logo/pytaku-white.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/app.js" />
     <entry file="file://$PROJECT_DIR$/source/app/styles/_screen.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1000,10 +878,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/app/styles/_prefixes.scss">
+    <entry file="file://$PROJECT_DIR$/source/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1022,10 +908,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/js/initialize.js" />
+    <entry file="file://$PROJECT_DIR$/source/public/js/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/assets/js/initialize.js" />
+    <entry file="file://$PROJECT_DIR$/source/public/app.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/initialize.js" />
+    <entry file="file://$PROJECT_DIR$/source/app/styles/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding>
+            <element signature="e#2909#3451#0" expanded="false" />
+            <marker date="1481801962000" expanded="true" signature="1096:1127" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="149" column="2" selection-start-line="149" selection-start-column="2" selection-end-line="149" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/vendor.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/styles/_prefixes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/assets/js/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/brunch-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/app/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="529" column="25" selection-start-line="529" selection-start-column="25" selection-end-line="529" selection-end-column="25" />
+        <state relative-caret-position="591">
+          <caret line="523" column="26" selection-start-line="523" selection-start-column="26" selection-end-line="523" selection-end-column="26" />
           <folding>
             <element signature="n#li#0;n#ul#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1034,33 +994,6 @@
             <element signature="n#section#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/app/styles/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="184" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
-          <folding>
-            <element signature="e#2654#3196#0" expanded="false" />
-            <marker date="1481801122000" expanded="true" signature="1096:1127" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/app/assets/logo/pytaku-white.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/app/styles/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="5744" column="9" selection-start-line="5744" selection-start-column="9" selection-end-line="5744" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>

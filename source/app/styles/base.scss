@@ -110,11 +110,26 @@ header {
   @include screen-min(min-tablet) {
     display: none;
   }
+
+  ul {
+    background-color: orange;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    li {
+      line-height: 1.8em;
+      background-color: orchid;
+      ul {
+        margin-top: 0;
+        background-color: pink;
+      }
+    }
+  }
 }
 
 .nav-menu {
   width: 90%;
-  margin: 0 auto;
+  margin: 5px auto 0;
 }
 
 .nav-search {
