@@ -1,4 +1,4 @@
-module.exports = function (obj) {
+exports.showSubmenu = function (obj) {
   var listClasses = document.getElementById("acct-menu").classList;
     console.log(listClasses);
 

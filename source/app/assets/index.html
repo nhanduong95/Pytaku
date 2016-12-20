@@ -14,8 +14,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
-<!-- -- HEADER -- -->
+
 <header>
 
   <div class="header-container">
@@ -63,9 +64,6 @@
 
 </header>
 
-<!-- -- END HEADER -- -->
-
-<!-- -- MAIN BODY -- -->
 <main>
   <!--Main content -->
   <div class="row">
@@ -501,9 +499,8 @@
       </ul>
     </section>
   </div>
-  <!--<main>-->
-  <!--</main>-->
 </main>
+
 <footer>
   <div class="footer__author">
     @Designed by Phan Minh Dang & Bui Thanh Nhan, 2015
@@ -516,17 +513,15 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 
-<script src="../js/bootstrap.min.js"></script>
-<script>
-  function showSubmenu(obj){
-    var show = require("../js/navbar.js");
-    show(obj);
-  }
+<script type="text/javascript">
+    function showSubmenu(obj){
+      var show = require('js/navbar.js').showSubmenu;
+      show(obj);
+    }
+
 </script>
 
 <script src="/app.js"></script>
-
 </body>
 </html>
